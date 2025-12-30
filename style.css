@@ -1,0 +1,30 @@
+body {
+    font-family: 'Dancing Script', cursive; /* Fallback to cursive if font fails */
+    background-color: #f5f5dc; /* Cream background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #e74c3c;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
